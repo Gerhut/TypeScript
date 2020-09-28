@@ -1,0 +1,24 @@
+{
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc --project src",
+    "coverage": "nyc mocha"
+  },
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "latest",
+    "@tsconfig/recommended": "latest",
+    "@types/mocha": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "prettier": "latest",
+    "should": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}

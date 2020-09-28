@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - node
+  - lts/*
+
+after_success:
+  - npm run coverage
+  - npx nyc report --reporter=text-lcov | npx coveralls
